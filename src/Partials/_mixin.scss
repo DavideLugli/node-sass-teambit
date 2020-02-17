@@ -1,5 +1,9 @@
-@mixin center-content {
+@mixin center-content-80 {
   width: 80%;
+  margin: 0 auto;
+};
+@mixin center-content-60 {
+  width: 60%;
   margin: 0 auto;
 };
 @mixin clearFix {

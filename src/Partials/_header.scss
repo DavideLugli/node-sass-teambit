@@ -1,7 +1,7 @@
 header {
-  @include center-content;
+  @include center-content-80;
   height: $heigthHeader;
-  border-bottom: 1px solid #ccc;
+  border-bottom: $borderBottom;
 
   nav {
     @include flex;

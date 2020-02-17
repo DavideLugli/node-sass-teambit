@@ -17,6 +17,10 @@ h1 {
   line-height: 70px;
 }
 
+h2 {
+  font-weight: $weightBold;
+  font-size: $fontSize * 1.8;  
+}
 .sub-title {
   font-size: $fontSize * 1.7;
 }

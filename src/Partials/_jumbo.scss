@@ -1,5 +1,5 @@
 .jumbo {
-  @include center-content;
+  @include center-content-80;
   height: calc(100vh - #{$heigthHeader});
   padding: 80px 0;
 }
