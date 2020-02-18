@@ -86,8 +86,7 @@ header nav .logo img {
 }
 
 header nav .menu ul {
-  display: flex;
-  align-items: center;
+  display: none;
   list-style: none;
 }
 
@@ -121,6 +120,11 @@ header nav .menu ul li a.btn:hover {
   svg.toggle {
     display: none;
   }
+
+  header nav .menu ul {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .jumbo {
@@ -134,7 +138,6 @@ header nav .menu ul li a.btn:hover {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 100%;
 }
 
 .wrapper .left-col {
@@ -167,6 +170,24 @@ header nav .menu ul li a.btn:hover {
 
 .wrapper .right-col img {
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .jumbo {
+    height: auto;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper .left-col {
+    width: 100%;
+  }
+
+  .wrapper .right-col {
+    width: 100%;
+  }
 }
 
 .features {

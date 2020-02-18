@@ -14,8 +14,8 @@ header {
 
     .menu {
       & ul {
-        @include flex;
-        // display: none;
+        // @include flex;
+        display: none;
         list-style: none;
 
         li {
@@ -51,9 +51,7 @@ header {
   svg.toggle {
     display: none;
   }
-
-  // .menu ul {
-  //   @include flex;
-  // }
-
+header nav .menu ul {
+  @include flex;
+}
 }
