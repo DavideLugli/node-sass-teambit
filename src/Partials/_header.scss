@@ -51,7 +51,8 @@ header {
   svg.toggle {
     display: none;
   }
-header nav .menu ul {
-  @include flex;
-}
+
+  header nav .menu ul {
+    @include flex;
+  }
 }

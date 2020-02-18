@@ -51,6 +51,10 @@ h2 {
   margin-right: 5px;
 }
 
+svg.toggle {
+  font-size: $fontSize * 1.5;
+}
+
 .btn img {
   width: 18px;
   margin-right: 5px;
@@ -58,6 +62,11 @@ h2 {
 
 a {
   text-decoration: none;
+  color: $primaryColor;
+
+  &:hover {
+    color: $linkColor;
+  }
 }
 
 .text-span {
