@@ -5,10 +5,10 @@
 }
 
 body {
-background-color: white;
-font-family: $fontFamily;
-font-size: $fontSize;
-color: $primaryColor;
+  background-color: white;
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $primaryColor;
 }
 
 h1 {
@@ -19,11 +19,13 @@ h1 {
 
 h2 {
   font-weight: $weightBold;
-  font-size: $fontSize * 1.8;  
+  font-size: $fontSize * 1.8;
 }
+
 .sub-title {
   font-size: $fontSize * 1.7;
 }
+
 .btn {
   @include button;
   color: white;
@@ -31,16 +33,29 @@ h2 {
   &:hover {
     background-color: #233569;
     color: white;
+
+    svg {
+      .logo-color {
+        display: none;
+      }
+    }
   }
 }
 
 .btn span {
   vertical-align: middle;
 }
+
+.btn svg {
+  width: 18px;
+  margin-right: 5px;
+}
+
 .btn img {
   width: 18px;
   margin-right: 5px;
 }
+
 a {
   text-decoration: none;
 }

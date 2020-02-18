@@ -15,10 +15,12 @@ header {
     .menu {
       & ul {
         @include flex;
+        // display: none;
         list-style: none;
 
         li {
           padding: 15px;
+          display: inline-block;
           font-weight: $weightBold;
 
           a {
@@ -34,6 +36,7 @@ header {
               background-color: white;
               border: 1px solid #30488F;
             }
+
             &.btn:hover {
               background-color: #30488F;
               color: white;
@@ -43,4 +46,14 @@ header {
       }
     }
   }
+}
+@media screen and (min-width: $breakPointSm) {
+  svg.toggle {
+    display: none;
+  }
+
+  // .menu ul {
+  //   @include flex;
+  // }
+
 }
