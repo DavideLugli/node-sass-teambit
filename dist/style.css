@@ -204,7 +204,7 @@ header nav .menu ul li a.btn:hover {
 .features {
   height: auto;
   background-color: #FFE7D2;
-  padding: 80px 0 0 0;
+  padding: 80px 0 0;
 }
 
 .features .features-wrapper {
@@ -218,6 +218,10 @@ header nav .menu ul li a.btn:hover {
 .title-wrapper {
   width: 80%;
   margin: 0 auto;
+}
+
+.title-wrapper.end-title {
+  margin-top: 80px;
 }
 
 .image-row {
@@ -244,6 +248,11 @@ header nav .menu ul li a.btn:hover {
 .image-feature {
   width: 140px;
   margin: auto;
+}
+
+.image-feature.safe {
+  width: 120px;
+  height: 150px;
 }
 
 .sub-feature {

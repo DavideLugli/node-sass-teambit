@@ -14,7 +14,6 @@ header {
 
     .menu {
       & ul {
-        // @include flex;
         display: none;
         list-style: none;
 
@@ -28,17 +27,17 @@ header {
             color: $primaryColor;
 
             &:hover {
-              color: #576BA4;
+              color: $linkColor;
             }
 
             &.btn {
-              color: #30488F;
+              color: $btnColor;
               background-color: white;
-              border: 1px solid #30488F;
+              border: 1px solid $btnColor;
             }
 
             &.btn:hover {
-              background-color: #30488F;
+              background-color: $btnColor;
               color: white;
             }
           }
